@@ -1,0 +1,37 @@
+{
+  "name": "ebay-api",
+  "description": "eBay API Client",
+  "version": "1.13.1",
+  "homepage": "https://github.com/benbuckman/nodejs-ebay-api",
+  "author": "Ben Buckman",
+  "repository": {
+    "url": "git://github.com/benbuckman/nodejs-ebay-api.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "async": "latest",
+    "csvtojson": "^1.1.2",
+    "debug": "2.2.0",
+    "express": "^4.14.0",
+    "fast-csv": "latest",
+    "js2xmlparser": "latest",
+    "lodash": "3.10.1",
+    "moment": "latest",
+    "pass": "^0.2.0",
+    "request": "2.72.0",
+    "xml": "1.0.1",
+    "xml2js": "latest"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.3",
+    "sinon": "1.17.4",
+    "sinon-chai": "2.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

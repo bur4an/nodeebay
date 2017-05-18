@@ -1,0 +1,31 @@
+const items = require('./files/itemsIngram');
+const revised = require('./files/uplog');
+const keys = require('../keys');
+var ebay = require('ebay-api');
+var fs = require('fs');
+fs.writeFile('files/new.csv','ItemId,ItemId,ItemId,CurrentPrice,OldPrice,Quantity,Buy\n','utf-8')
+	revised.forEach(function(item){
+	//console.log(item.ItemID);
+	items.forEach(function(itemss){
+		if(itemss.ItemID == item.ItemID)
+	ebay.xmlRequest({
+					serviceName: 'Shopping',
+					opType: 'GetSingleItem',
+					appId: keys.appId,
+					params: {
+						'ItemID': item.ItemID,
+						'IncludeSelector': 'Details,ItemSpecifics',
+					}
+				}, function(error, detail) {
+					// ...
+					if (error)
+						console.log(error)
+					if(detail.Ack == 'Success')
+						fs.appendFile('files/new.csv',detail.Item.ItemID+','+item.ItemID+','+itemss.ItemID+','
+									  +detail.Item.CurrentPrice.amount+','+itemss.CurrentPrice.amount+','
+									  +itemss.Ingram["Available Quantity"]+','
+									  +itemss.Ingram['Customer Price with Tax']+'\n','utf-8');
+				});
+	});
+	
+});

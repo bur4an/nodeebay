@@ -1,0 +1,4112 @@
+module.exports = [{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.501Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112137379972",
+	"StartTime": "2016-09-15T12:10:39.000Z",
+	"EndTime": "2017-01-13T12:10:39.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.580Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112078931749",
+	"StartTime": "2016-08-01T07:22:49.000Z",
+	"EndTime": "2017-01-28T07:22:49.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.619Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112137440199",
+	"StartTime": "2016-09-15T13:42:01.000Z",
+	"EndTime": "2017-01-13T13:42:01.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.822Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112078328200",
+	"StartTime": "2016-07-31T19:18:22.000Z",
+	"EndTime": "2017-01-27T19:18:22.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.905Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "111675574748",
+	"StartTime": "2015-05-20T07:26:32.000Z",
+	"EndTime": "2017-01-09T07:26:32.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.984Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112111706897",
+	"StartTime": "2016-08-28T09:35:13.000Z",
+	"EndTime": "2017-01-25T09:35:13.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.962Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112137381607",
+	"StartTime": "2016-09-15T12:13:41.000Z",
+	"EndTime": "2017-01-13T12:13:41.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.973Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112137442458",
+	"StartTime": "2016-09-15T13:45:55.000Z",
+	"EndTime": "2017-01-13T13:45:55.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:16.997Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162204029435",
+	"StartTime": "2016-09-15T15:16:58.000Z",
+	"EndTime": "2017-01-13T15:16:58.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:17.077Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "112076634294",
+	"StartTime": "2016-07-30T04:43:12.000Z",
+	"EndTime": "2017-01-26T04:43:12.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:17.151Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Message": "<div>\n        \n        <div class=\"g-rcp-rcp\"><div class=\"rcp-n\"><div class=\"rcp-e\"><div class=\"rcp-w\"></div></div></div><div class=\"g-rcp-mid\"><div class=\"g-rcp-cnt-pad\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"alert-image\" align=\"left\"></td><td class=\"alert-message\"><div class=\"alert-cnt\"><b></b></div><div class=\"alert-cnt\"><p>The selected service is no longer available from Australia Post. Please select one of the following alternatives:<ul style=\"margin-top: 6px;\"><li><p>Australia Post Parcel Post Parcel</p></li><li><p>Australia Post Parcel Post Parcel + Signature</p></li></ul></p></div></td></tr></table></div></div><div class=\"rcp-s\"><div class=\"rcp-e\"><div class=\"rcp-w\"></div></div></div></div>\n    </div><font color=\"#BEBEBE\" size=\"1\">{e51100-781454x}</font>",
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162091296904",
+	"StartTime": "2016-06-02T23:33:50.000Z",
+	"EndTime": "2017-01-28T23:33:50.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:17.368Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162183299229",
+	"StartTime": "2016-08-28T08:49:39.000Z",
+	"EndTime": "2017-01-25T08:49:39.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:17.479Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162154858901",
+	"StartTime": "2016-08-01T05:42:20.000Z",
+	"EndTime": "2017-01-28T05:42:20.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:17.744Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162100500209",
+	"StartTime": "2016-06-11T12:14:27.000Z",
+	"EndTime": "2017-01-07T12:14:27.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},{
+	"$": {
+		"xmlns": "urn:ebay:apis:eBLBaseComponents"
+	},
+	"Timestamp": "2017-01-06T01:13:18.832Z",
+	"Ack": "Warning",
+	"Errors": [
+		{
+			"ShortMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"LongMessage": "If this item sells by a Best Offer, you will not be able to require immediate payment.",
+			"ErrorCode": "23015",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		},
+		{
+			"ShortMessage": "Add product details to this listing.",
+			"LongMessage": "This listing should contain product details from the eBay catalog. Add product details to this listing.",
+			"ErrorCode": "21917108",
+			"SeverityCode": "Warning",
+			"ErrorClassification": "RequestError"
+		}
+	],
+	"Version": "993",
+	"Build": "E993_UNI_API5_18187175_R1",
+	"ItemID": "162183319738",
+	"StartTime": "2016-08-28T09:18:37.000Z",
+	"EndTime": "2017-01-25T09:18:37.000Z",
+	"Fees": {
+		"Fee": [
+			{
+				"Name": "AuctionLengthFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BoldFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BuyItNowFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "CategoryFeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryPlusFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FeaturedGalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "FixedPriceDurationFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GalleryFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "GiftIconFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "HighLightFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "InternationalInsertionFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingDesignerFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoDisplayFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PhotoFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ReserveFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SchedulingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "SubtitleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BorderFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "BasicUpgradePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ValuePackBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "PrivateListingFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "ProPackPlusBundleFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			},
+			{
+				"Name": "MotorsGermanySearchFee",
+				"Fee": {
+					"_": "0.0",
+					"$": {
+						"currencyID": "AUD"
+					}
+				}
+			}
+		]
+	}
+},
